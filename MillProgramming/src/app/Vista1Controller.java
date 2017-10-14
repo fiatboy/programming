@@ -6,7 +6,7 @@ public class Vista1Controller {
 	
 	@FXML
 	void handleNext() {
-		VistaNavigator.loadVista(VistaNavigator.VISTA_2);
+		VistaNavigator.loadVista(VistaNavigator.VISTA_1);
 	}
 
 }

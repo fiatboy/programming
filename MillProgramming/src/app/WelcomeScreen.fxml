@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.WelcomeScreenController">
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.WelcomeScreenController">
    <children>
-      <Button layoutX="255.0" layoutY="154.0" mnemonicParsing="false" onAction="#hanldeButton" text="Button" />
+      <Button layoutX="548.0" layoutY="374.0" mnemonicParsing="false" onAction="#hanldeButton" text="next" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label layoutX="342.0" layoutY="48.0" text="Mill" textFill="#ee300ad6">
+         <font>
+            <Font name="Arial Bold" size="70.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="128.0" text="Welcome to our Mill-Game &lt;&lt;Enjoy and have Fun&gt;&gt;" textFill="#e4160fed" />
+      <Label layoutX="14.0" layoutY="567.0" text="Author: Omar Y. ,Flo B." />
+      <Button layoutX="363.0" layoutY="247.0" mnemonicParsing="false" text="New Game" />
+      <Button layoutX="365.0" layoutY="288.0" mnemonicParsing="false" text="About Mill" />
    </children>
 </AnchorPane>

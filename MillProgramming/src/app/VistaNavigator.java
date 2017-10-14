@@ -7,8 +7,8 @@ import javafx.fxml.FXMLLoader;
 public class VistaNavigator {
 	
 	public static final String MAIN = "/app/Main.fxml";
-	public static final String VISTA_1 = "/app/Vista1.fxml.fxml";
-	public static final String VISTA_2 = "/app/WelcomeScreen.fxml";
+	public static final String VISTA_1 = "/app/WelcomeScreen.fxml";
+	public static final String VISTA_2 = "/app/Vista1.fxml.fxml";
 	
 	private static MainController mainController;
 	
