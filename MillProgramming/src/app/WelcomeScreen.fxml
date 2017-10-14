@@ -17,5 +17,6 @@
       <Label layoutX="14.0" layoutY="567.0" text="Author: Omar Y. ,Flo B." />
       <Button layoutX="363.0" layoutY="247.0" mnemonicParsing="false" text="New Game" />
       <Button layoutX="365.0" layoutY="288.0" mnemonicParsing="false" text="About Mill" />
+      <Button layoutX="353.0" layoutY="518.0" mnemonicParsing="false" onAction="#handleExit" prefHeight="25.0" prefWidth="96.0" text="Exit Game" />
    </children>
 </AnchorPane>
