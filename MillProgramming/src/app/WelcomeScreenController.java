@@ -7,7 +7,7 @@ public class WelcomeScreenController {
 	
 	
 	@FXML
-	void hanldeButton() {
+	void hanldeNext() {
 		VistaNavigator.loadVista(VistaNavigator.VISTA_2);
 	}
 	

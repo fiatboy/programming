@@ -7,7 +7,7 @@
 
 <AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.WelcomeScreenController">
    <children>
-      <Button layoutX="548.0" layoutY="374.0" mnemonicParsing="false" onAction="#hanldeButton" text="next" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Button layoutX="548.0" layoutY="374.0" mnemonicParsing="false" onAction="#hanldeNext" text="next" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" />
       <Label layoutX="342.0" layoutY="48.0" text="Mill" textFill="#ee300ad6">
          <font>
             <Font name="Arial Bold" size="70.0" />
