@@ -13,7 +13,9 @@ public class WelcomeScreenController {
 	
 	@FXML
 	void handleExit() {
+		System.out.println("test");
 		System.exit(0);
+		
 	}
 
 }
